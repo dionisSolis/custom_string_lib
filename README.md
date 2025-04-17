@@ -11,7 +11,7 @@ The implementation closely follows the behavior of the standard C library functi
 │   ├── s21_scanf.c
 │   └── s21_scanf.h
 └── tests
-    └── test_string.c
+|    └── test_string.c
 ## My Contributions
 ### Memory Manipulation Functions (mem)
 - memchr - Locates first occurrence of character in memory block
