@@ -3,15 +3,15 @@
 This **group project** is an implementation of a custom string.h library in C, including memory manipulation functions, string operations, formatted input/output (sprintf/sscanf), and additional string utilities. 
 The implementation closely follows the behavior of the standard C library functions.
 ## Project Structure
-├── Makefile
-├── s21_sprintf.c
-├── s21_string.c
-├── s21_string.h
-├── scanf
-│   ├── s21_scanf.c
-│   └── s21_scanf.h
-└── tests
-|    └── test_string.c
+- Makefile
+- s21_sprintf.c
+- s21_string.c
+- s21_string.h
+- scanf
+	- s21_scanf.c
+	- s21_scanf.h
+- tests
+	- test_string.c
 ## My Contributions
 ### Memory Manipulation Functions (mem)
 - memchr - Locates first occurrence of character in memory block
