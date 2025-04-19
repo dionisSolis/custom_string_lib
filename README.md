@@ -44,7 +44,7 @@ sscanf - Implemented with support for:
 strerror - Implemented with OS-specific error messages for both Linux and macOS
 ### Build System
 Created Makefile with targets for:
-- Building static library (s21_string.a)
-- Running tests
-- Generating coverage reports
-- Cleaning build artifacts
+- Building static library (s21_string.a) - **make**
+- Running tests - **make test**
+- Generating coverage reports - **make gcov_report**
+- Cleaning build artifacts - **make clean**
